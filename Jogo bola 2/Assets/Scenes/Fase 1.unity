@@ -231,8 +231,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688486449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8751812, y: 1.8789, z: 1.7811}
-  m_LocalScale: {x: 0.4821, y: 0.4821, z: 0.4821}
+  m_LocalPosition: {x: 0.8, y: 2.3824, z: 1.2776}
+  m_LocalScale: {x: 1.489014, y: 1.489014, z: 1.489014}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -250,7 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89e648d6c88a80e41b9075ed2eda8225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
+  velocidade: 5
+  forcaPulo: 7
+  noChao: 0
 --- !u!1 &697231283
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7b3c2a324c70414ea9bed474d9bf77e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alvo: {fileID: 0}
+  alvo: {fileID: 688486455}
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1319921524
 GameObject:
@@ -364,7 +366,7 @@ GameObject:
   - component: {fileID: 1319921525}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
